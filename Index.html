@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1 SISA</title>
+    <style>
+        body {
+            background-color: rgba(43, 160, 255, 0.685);
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        h1 {
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        }
+
+        nav,
+        a {
+            text-decoration: none;
+            padding: 2%;
+            text-align: center;
+            background: #119bc2;
+            color: rgb(255, 255, 255);
+        }
+
+        a:hover {
+            color: white;
+            background-color: #0e80a0;
+        }
+
+        .Titulo1 {
+            color: black;
+            text-align: center;
+        }
+
+        h2 {
+            color: blue;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            text-align: left
+        }
+
+        section {
+            text-align: left;
+        }
+
+        i {
+            color: green;
+        }
+
+        .imagen {
+            text-align: center;
+        }
+
+        .menor {
+            background-color: yellow;
+            position: relative;
+            width: 80%;
+            text-align: left;
+            padding: 4%;
+        }
+
+        .texto1 {
+            color: black;
+        }
+
+        .mayor {
+            text-align: right;
+            position: relative;
+            width: 40%;
+            padding: 1%;
+        }
+
+        .final {
+            color: white;
+            background: #119bc2;
+            padding: 10px;
+            text-align: center;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        }
+    </style>
+    <link rel="icon" type="image/x-icon" href="./Images/icons8-s-67.png">
+</head>
+
+<body>
+    <header class="Titulo1">
+        <h1 class="Titulo1"><b>Practica 1 Ismael Sisa</b></h1>
+    </header>
+        <nav>
+            <a href="#1">Pagina web</a>
+            <a href="#2">Caracteres Especiales</a>
+            <a href="#3">Espacios en Blanco</a>
+            <a href="#4">Listas</a>
+            <a href="#5">Imagen centrada</a>
+            <a href="#6">Cita célebre</a>
+
+        </nav>
+        <main>
+            <section>
+                <h2 id="1">
+                    <sup><ins>A</ins></sup>&nbsp;&nbsp;Pagina web de SISA
+                </h2>
+                <h3><b>Negrita</b></h3>
+                <p>
+                    Una <strong>palabra clave </strong>relativamente importate para mi
+                </p>
+                <h3><b>Italica o Cursiva</b></h3>
+                <p>La tendencia mas <i>cool</i> del verano</p>
+                <p>Parafraceado a Einten <i>Dios no juega a los dados</i></p>
+                <p>Benito le dijo a Manuel que <i>era un campeon </i></p>
+                <h3>Subrayado y techado</h3>
+                <p>
+                    <ins>Esto es un <b>texto</b> subrayado</ins>
+                </p>
+                <p>El hombre llego a la luna en <del>1970</del><ins>1969</ins></p>
+            </section>
+            <section>
+                <h2 id="2">
+                    <sup><ins>&#x03A9;</ins></sup>&nbsp;&nbsp;Caracteres Especiales
+                </h2>
+                <ul>
+                    <li>;</li>
+                    <li>&lt;</li>
+                    <li>&gt;</li>
+                    <li>&</li>
+                    <li>`</li>
+                    <li>"</li>
+                    <li>\</li>
+                    <li>/</li>
+                    <li>©</li>
+                    <li></li>
+                    <li>€</li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="3">&amp;nbsp;&nbsp;Espacios en Blanco</h2>
+                <p>
+                    El espacio en blanco se codifica como
+                    &nbsp;(<strong>N</strong>o<strong>B</strong>reak<strong>SP</strong>ace)
+                </p>
+                <p>Hola que tal</p>
+                <p>Hola &nbsp;&nbsp; que tal</p>
+                <p>Hola &nbsp;&nbsp;&nbsp;&nbsp; que tal</p>
+                <p>Hola &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; que tal</p>
+                <p>Hola &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; que tal</p>
+            </section>
+            <section>
+                <h2 id="4"><sup>≡</sup>&nbsp;&nbsp;Listas</h2>
+                <h3>Listas numeradas</h3>
+                <ol>
+                    <li>Lorem ipsum dolor</li>
+                    <li>
+                        Eum voluptatum ipsum maxime ratione suscipit, odio praesentium,
+                        earum tempora aut qui ducimus.
+                    </li>
+                    <li>
+                        Sint similique dolorem architecto esse quaerat provident impedit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                        similique repellendus
+                    </li>
+                </ol>
+                <h3>Listas no enumeradas</h3>
+                <ul>
+                    <li>
+                        Eum voluptatum ipsum maxime ratione suscipit, odio praesentium,
+                        earum tempora aut qui ducimus.
+                    </li>
+                    <li>esse quaerat provident impedit.</li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                        similique repellendus
+                    </li>
+                </ul>
+                <h3>Listas anidadas</h3>
+                <h4>Ejemplos 1 - Protocolos de la capa de aplicación</h4>
+                <ul>
+                    <li>
+                        Transmisiones de ficheros
+                        <ul>
+                            <li>FTP</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Correo Electronico
+                        <ul>
+                            <li>IMAP</li>
+                            <li>POP</li>
+                            <li>SMTP</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h4>Ejemplo 2 - Índice</h4>
+                <ol>
+                    <li>
+                        La comunicacion
+                        <ol>
+                            <li>Conceptos</li>
+                            <li>Elementos de un sistema de comunicación</li>
+                            <li>Modo de Transmision</li>
+                        </ol>
+                    </li>
+                    <li>
+                        Conceptos de red. Ventajas
+                        <ol>
+                            <li>Conceto de red</li>
+                            <li>Ventajas de red</li>
+                        </ol>
+                    </li>
+                    <li>
+                        Topologia de red
+                        <ol>
+                            <li>Topologia en estrella</li>
+                            <li>Topologia en bus</li>
+                            <li>Topologia en anillo</li>
+                            <li>Topologia en arbol (estrella jeraquizado)</li>
+                            <li>Topologia en malla</li>
+                        </ol>
+                    </li>
+                </ol>
+                <h4>Ejemplos 3 - Mixto</h4>
+                <ol>
+                    <li>
+                        Manifiesto
+                        <ul>
+                            <li>Gato</li>
+                            <li>Perro</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Pájaros
+                        <ul>
+                            <li>Palomas</li>
+                            <li>Gorrion</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Peces
+                        <ul>
+                            <li>Tiburón</li>
+                            <li>Sardina</li>
+                            <li>Atún</li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+            <section>
+                <h2 id="5"><sup>📷</sup>&nbsp;&nbsp;Imagen centrada</h2>
+                <div class="imagen"><img src="./Images/Meme.png" alt="meme"></div>
+            </section>
+            <section>
+                <h2 id="6"><sup>99</sup>&nbsp;&nbsp;Cita célebre</h2>
+                <div class="mayor">
+                    <div class="menor">
+                        <i class="texto1">Todas las piezas deben unirse sin ser forzadas. Debe recordar que
+                            los componentes que los componentes que está reensamblado fueron
+                            desmontados por usted, por lo que si no puede unirlos debe existir
+                            una razón. Pero sobre todo, no use un martillo</i>
+                    </div>
+                    <br>
+                    <i class="texto1">Manuel de mantenimiento de IBM, año 1925</i>
+                </div>
+            </section>
+        </main> 
+    <footer class="final">Proyecto de Sisa</footer>
+</body>
+
+</html>
